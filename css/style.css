@@ -154,4 +154,48 @@ footer .explain2 .avis_de_broit {
 footer .explain2 .avis_de_broit p {
   float: right;
 }
+footer .explain3 {
+  background-color: #242424;
+  color: #fff;
+  padding: 20px 0;
+  font-weight: bold;
+}
+footer .explain3 .payment_and_slide {
+  padding-left: 150px;
+}
+footer .explain3 .adsilde {
+  margin: 0 150px;
+  background: white;
+  -webkit-border-radius: 12px; 
+  -moz-border-radius: 12px; 
+  border-radius: 12px; 
+  padding: 10px 0;
+}
+footer .explain3 .footer_social{
+  padding-top: 20px;
+}
 
+footer .footer_last{
+  padding: 20px 0;
+  background: #2e2e2e;
+  text-align: center;
+  font-size: 0.8em;
+  color: #7d7d7d;
+}
+
+
+/* 
+all media Q
+*/
+@media (min-width: 992px) {
+  footer .explain2 .container .col-md-2 {
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .explain2 .container .col-md-3{
+    padding: 0;
+  }
+}
