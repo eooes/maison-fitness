@@ -24,7 +24,6 @@
     <!-- jQuery -->
 
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
@@ -41,7 +40,9 @@
   <body>
     <div class="container">
       <div class="top_header">
-        <img class="logo" src="images/logo.png"/>
+        <div class="col-sm-3 col-md-3">
+          <img class="logo" src="images/logo.png"/>
+        </div>
         <div class="login_search_box">
           <div class="warp_top_menu">
           <div class="warp_top_menu_header">
@@ -102,152 +103,25 @@
       <div class="middle_part">
         <div class="top_silder">
 
-          <ul class="bxslider">
-            <li><img src="images/silder/silder1.jpg" /></li>
-            <li><img src="images/silder/silder2.jpg" /></li>
-            <li><img src="images/silder/silder3.jpg" /></li>
-          </ul>
+<ul class="rslides">
+  <li><img src="images/silder/silder1.jpg" alt=""></li>
+  <li><img src="images/silder/silder2.jpg" alt=""></li>
+  <li><img src="images/silder/silder3.jpg" alt=""></li>
+</ul>
 
 
         </div>
 
-        <div class="clearfix">
-          <div class="main_menu">
 
+          <div class="main_menu clearfix">
 
+            <div class="container">
+              <div id="loadmenu" class="row" >
 
-
-
-
-
-
-
-
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3 col-md-3">
-            <div class="panel-group" id="accordion">
-
-
-
-
-
-                <div class="panel panel-default">
-                    <div class="panel-heading2">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseONE">Modules</a>
-                            <p><a data-toggle="collapse" data-parent="#accordion" href="#collapseONE"><span class="glyphicon glyphicon-plus"></span></a></p>
-                          
-                        </h4>
-                    </div>
-                    <br class="clearfix">
-                    <div id="collapseONE" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Orders</a> <span class="label label-success">$ 320</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Invoices</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Shipments</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Tex</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-                <div class="panel panel-default">
-                    <div class="panel-heading2">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Modules</a>
-                            <p><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span></a></p>
-                          
-                        </h4>
-                    </div>
-                    <br class="clearfix">
-                    <div id="collapseTwo" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Orders</a> <span class="label label-success">$ 320</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Invoices</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Shipments</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Tex</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
+              </div>
             </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
 
-
-        </div>
       </div>
 
     </div>
@@ -289,17 +163,19 @@ Retrouvez toute l'actualité de Maison du Fitness, votre boutique fitness et mus
 
         <div class="explain3">
           <div class="container">
-Nos partenaires :
-<div class="payment_and_slide">
+<p>Nos partenaires :</p>
+<div class="payment">
   <img src="images/visa.png">
   <img src="images/mastercard.png">
   <img src="images/paypal.png">
 </div>
-Nos marques :
-<div class="payment_and_slide adsilde">
-  <img src="images/visa.png">
+<p>Nos marques :</p>
+
+<div class="adsilde">
+<marquee scrollamount="2" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">  <img src="images/visa.png">
   <img src="images/mastercard.png">
   <img src="images/paypal.png">
+</marquee>
 </div>
 <div class="footer_social">
   <img src="images/facebook.png">
