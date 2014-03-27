@@ -4,7 +4,7 @@ $("#loadmenu").load("menu.html");
 $(".rslides").responsiveSlides({
         auto: true,
         pager: true,
-        nav: true,
+        nav: false,
         speed: 500,
         namespace: "centered-btns"
       });

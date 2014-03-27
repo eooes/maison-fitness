@@ -102,6 +102,11 @@ top header
   margin: 20px 5px;
   float: left;
 }
+.top_header img.logo2{
+  display: none;
+  margin: 20px 20px;
+  float: left;
+}
 .top_header .login_search_box{
   float: right;
   margin: 20px 0;
@@ -304,6 +309,19 @@ all media Q
 @media (max-width: 530px) {
   .login_search_box{
     width: 100%;
+  }
+}
+@media (max-width: 530px) {
+  .login_search_box{
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .top_header img.logo2{
+    display: inline;
+  }
+  .top_header img.logo{
+    display: none;
   }
 }
 
