@@ -4,6 +4,7 @@ init page
 ********************************** */
 html{
   border-top: solid #000 10px;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* **********************************
@@ -132,7 +133,7 @@ middle part
 .middle_part{
 
 }
-.main_menu .col-sm-3, .main_menu #col-md-3{
+.main_menu .col-sm-4, .main_menu .col-md-3{
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -159,7 +160,57 @@ middle part
 .main_menu .panel-body table tr td { padding-left: 15px }
 .main_menu .panel-body .table {margin-bottom: 0px; }
 
+          /* ------------------------------
+          SUB part / main contant part
+          ------------------------------ */
 
+          .main_content{
+
+          }
+          .ad_right {
+            text-align: center; 
+          }
+          .ad_right img{
+            margin: 10px 0;
+          }
+          .home_catagory {
+            border: 1px solid #eee;
+            overflow: hidden;
+            text-align: center;
+            border-radius: 4px;
+            margin: 0 5px 10px 0;
+          }
+          .home_catagory h4 {
+            text-align: left;
+          }
+          .home_catagory h3 {
+            color: #ff1674;
+            font-weight: bold;
+            line-height: 1px;
+          }
+          .home_catagory h5 {
+            text-decoration: line-through;
+          }
+          .home_catagory p{
+            border-radius: 50%;
+            background: #ff1674;
+            font-weight: bold;
+            padding-top: 10px;
+            color: white;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1;
+          }
+
+          .pdlg{
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            z-index: -2;
+          }
 
 /* **********************************
 footer
@@ -171,6 +222,7 @@ footer .explain {
   text-align: center;
   color: #747474;
   padding: 20px 0;
+  margin-top: 20px;
 }
 footer .explain2 {
   background-color: #9b9b9b;
@@ -232,7 +284,15 @@ all media Q
 @media (min-width: 992px) {
   footer .explain2 .container .col-md-2 {
     text-align: center;
+  }
+  .main_content .col-md-6{
+    width: 49% !important;
+  }
+}
 
+@media (max-width: 992px) {
+  .ad_right img {
+    padding-left: 10px;
   }
 }
 
