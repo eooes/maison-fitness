@@ -191,10 +191,19 @@ middle part
           .home_catagory h3 {
             color: #ff1674;
             font-weight: bold;
-            line-height: 1px;
+            text-align: right;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            z-index: 1;
           }
           .home_catagory h5 {
             text-decoration: line-through;
+            text-align: right;
+            position: absolute;
+            top: 40px;
+            right: 10px;
+            z-index: 1;
           }
           .home_catagory p{
             border-radius: 50%;
@@ -209,11 +218,13 @@ middle part
             right: 10px;
             z-index: 1;
           }
-
+          .home_catagory img:first-of-type{
+            padding: 30px 0; 
+          }
           .pdlg{
             position: absolute;
             bottom: 5px;
-            right: 5px;
+            left: 5px;
             z-index: -2;
           }
 
