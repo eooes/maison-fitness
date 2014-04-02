@@ -132,6 +132,11 @@ top header
   float:right; 
   margin-right:20px;
 }
+
+.top_header .navbar-form button{
+    vertical-align:top !important;
+}
+
 /* **********************************
 middle part
 ********************************** */
@@ -187,6 +192,12 @@ middle part
           }
           .home_catagory h4 {
             text-align: left;
+          }
+          .home_catagory h4:first-of-type{
+            font-size: 0.9em;
+          }
+          .home_catagory h4:nth-of-type(2){
+            color: #ff1674;
           }
           .home_catagory h3 {
             color: #ff1674;
