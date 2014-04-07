@@ -357,13 +357,13 @@ middle part
             width:100%;
           }
           .cat_table .title_cat {
-            background: #888;
-            color: #eee;
-            text-align: center;
-            font-size: 0.9em;
+            background: #888 !important;
+            color: #eee !important;
+            text-align: center !important;
+            font-size: 0.9em !important;
           }
           .cat_table .title_cat td{
-            border-right: 1px solid #bbb;
+            border-right: 1px solid #bbb !important;
           }
 /* Global Val */
 .updown > i {
