@@ -239,6 +239,178 @@ middle part
             z-index: -2;
           }
 
+          /* ------------------------------
+          SUB part / category page part
+          ------------------------------ */
+          .category_page h2{
+            color: #ff1674;
+          }
+          .category_page .cat_title{
+            color: #428bca;
+            font-weight: bolder;
+
+          }
+          .catagory_item {
+            border: 1px solid #eee;
+            overflow: hidden;
+            border-radius: 4px;
+            margin: 0 5px 10px 0;
+            text-align: center;
+          }
+          .img_cat_item {
+            float:left; margin-top:50px;
+          }
+          .catagory_item p{
+            text-align: center;
+            border-radius: 50%;
+            background: #ff1674;
+            font-weight: bold;
+            padding-top: 10px;
+            color: white;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+          }
+          .catagory_item h3{
+            color: #ff1674;
+            font-weight: bolder;
+            line-height: 0;
+          }
+          .catagory_item h5{
+            text-decoration: line-through;
+            line-height: 0;
+          }
+          .catagory_item h6.charnum{
+            color: #428bca;
+            font-weight: bolder;
+          }
+          .cost_cat {
+            text-align:right; margin-top:25px;
+          }
+          .enstock{ 
+            color: #74C365; 
+            font-weight: bold; 
+            margin-top: 5px;
+            float: right;
+            margin-bottom: 10px;
+          }
+          .enstock div, .enstock span {float: left;}
+          .enstock div:last-child {
+            font-size: 0.96em;
+            line-height: 1.7em;
+          }
+          .enstock .glyphicon{
+            margin: 3px;
+          }
+
+          .catagory_item .cat_info{
+            float: right;
+            width: 35%;
+          }
+
+
+          .tabs label{
+            display: inline;
+          }
+          .tabs {
+            position: relative;   
+            min-height: 200px; 
+            clear: both;
+            margin: 25px 0;
+          }
+          .tab {
+            float: left;
+          }
+          .tab label {
+            background: url(../images/tab_s.png) right top no-repeat #eee; 
+            padding: 10px; 
+            color: #ccc;
+            margin-left: -1px; 
+            position: relative;
+            left: 1px; 
+          }
+          .tab [type=radio] {
+            display: none;   
+          }
+          .tabs .tab_content {
+            position: absolute;
+            top: 28px;
+            left: 0;
+            background: white;
+            right: 0;
+            bottom: 0;
+            border: 1px solid #ccc; 
+          }
+          [type=radio]:checked ~ label {
+            background: url(../images/tab_s.png) right top no-repeat #0497FE; 
+            color: white;
+            z-index: 2;
+          }
+          [type=radio]:checked ~ label ~ .tab_content {
+            z-index: 1;
+          }
+
+          .cat_table {
+            width:100%;
+          }
+          .cat_table .title_cat {
+            background: #888;
+            color: #eee;
+            text-align: center;
+            font-size: 0.9em;
+          }
+          .cat_table .title_cat td{
+            border-right: 1px solid #bbb;
+          }
+/* Global Val */
+.updown > i {
+    margin-top: 4px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 0.5em solid transparent;
+    border-top: 0.5em solid #eee;
+    margin-right: -5px;
+}
+.updown > i+i {
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 0.5em solid transparent;
+    border-bottom: 0.5em solid #eee;
+
+}
+.cat_updown {
+  position: relative;
+  top: 3px;
+  padding: 1px;
+}
+          .cat_table .model h4{ font-size: 0.9em; color: #ff1674; font-weight: bolder;}
+          .cat_table .model p{ font-size: 0.9em; margin-top: -5px;}
+          .cat_table .model img{float: right;}
+          .cat_table .prix{
+            color: #ff1674;
+            font-weight: bolder;
+            text-align: center;
+          }
+          .cat_table .enstock{
+            float: none;
+            text-align: center;
+
+          }
+          .cat_table .checkbox_cat{
+            text-align: center;
+          }
+
+
+
 /* **********************************
 footer
 ********************************** */
