@@ -1,6 +1,6 @@
 
 $(function () {
-$("#loadmenu").load("menu.html"); 
+
 $(".rslides").responsiveSlides({
         auto: true,
         pager: true,

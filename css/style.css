@@ -312,6 +312,27 @@ middle part
           }
 
 
+/* ------------------------------
+SUB part / global tabs
+------------------------------ */
+#tabble .product_page .titre{
+  font-size: 1.4em;
+  color: #ff1674;
+  font-weight: bolder;
+}
+.product_page .tab-pane {
+  padding: 10px;
+
+}
+.#tabble_con  .tab-pane b{
+  padding: 10px 0 5px 0;
+}
+
+
+          .product_page #tabble li a{
+            font-size: 0.8em !important;
+          }
+
           .tabs label{
             display: inline;
           }
@@ -365,7 +386,21 @@ middle part
           .cat_table .title_cat td{
             border-right: 1px solid #bbb !important;
           }
-/* Global Val */
+          .product_page .titre{
+            font-size: 1.4em;
+            color: #ff1674;
+            font-weight: bolder;
+          }
+          .product_page .tabs_for_product .tab_content{
+            padding: 10px;
+          }
+          .button_compare {
+            text-align: right;
+          }
+
+/* ------------------------------
+SUB part / Global Val updown 
+------------------------------ */
 .updown > i {
     margin-top: 4px;
     display: inline-block;
@@ -399,6 +434,7 @@ middle part
             color: #ff1674;
             font-weight: bolder;
             text-align: center;
+            font-size: 1.2em;
           }
           .cat_table .enstock{
             float: none;
@@ -408,6 +444,75 @@ middle part
           .cat_table .checkbox_cat{
             text-align: center;
           }
+          /* ------------------------------
+          SUB part / product page part
+          ------------------------------ */
+          .warp_product h3{
+            color: #428bca;
+            font-size: 0.9em;
+            font-weight: bolder;
+          }
+          .warp_product .im_right p:first-of-type{
+            color: #999;
+          }
+          .warp_detail_product .im_left,
+          .warp_detail_product .im_right,
+          .warp_detail_product .select_quan_l,
+          .warp_detail_product .select_quan_r{
+            float: left;
+          }
+          .warp_detail_product .im_left {
+            position: relative;
+          }
+          .warp_detail_product .im_left{width: 60%;}
+          .warp_detail_product .im_left img.shipfree{
+            position: absolute;
+            bottom: 15px;
+            right: 20px;
+            z-index: 1;
+          }
+          .warp_detail_product .im_right{width: 40%;}
+          .warp_detail_product .select_quan_l{width: 30%;padding-top: 12px;}
+          .warp_detail_product .select_quan_r{width: 60%;}
+          .warp_detail_product .numberbox {
+            position: relative;
+            text-align: right;
+          }
+          .warp_detail_product .numberbox h4{
+            text-decoration: line-through;
+            color: #999;
+
+          }
+          .warp_detail_product .numberbox h4,
+          .warp_detail_product .numberbox h2{ line-height: 0px;}
+          .warp_detail_product .numberbox h2{color:#ff1674;}
+          .warp_detail_product .product_discount {
+            text-align: center;
+            border-radius: 50%;
+            color: #fff !important;
+            background: #ff1674;
+            font-weight: bold;
+            padding-top: 10px;
+            color: white;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            left: 0px;
+            z-index: 1;
+          }
+          .warp_detail_product button{
+            margin: 10px 0;
+          }
+          .product_details_bottom{text-align: right;}
+          .product_bottom{margin: 20px 0;}
+          .product_bottom_left {
+            float:right;
+          }
+
+
+
+
 
 
 
@@ -480,6 +585,7 @@ footer .footer_last{
 /* 
 all media Q
 */
+
 @media (min-width: 992px) {
   footer .explain2 .container .col-md-2 {
     text-align: center;
@@ -492,9 +598,17 @@ all media Q
 @media (max-width: 992px) {
   .ad_right img {
     padding-left: 10px;
+    margin-top: 40px;
+  }
+  .main_menu .panel-title a{
+    font-size: 0.8em;
   }
 }
-
+@media (max-width: 768px){
+  .main_menu .panel-title a{
+    font-size: 1em;
+  }
+}
 @media (max-width: 1200px) {
   .explain2 .container .col-md-3{
     padding: 0;
